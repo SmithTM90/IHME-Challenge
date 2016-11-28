@@ -1,0 +1,10 @@
+location_id,location,location_name,year,age_group_id,age_group,age_start,age_end,sex_id,sex,unit,metric,measure,mean,lower,upper
+160,AFG,Afghanistan,1990,34,2 to 4 yrs,2,4,1,male,pct,obese,prevalence,0.068,0.044,0.107
+168,AGO,Afghanistan,1990,34,2 to 4 yrs,2,4,1,male,pct,overweight,prevalence,0.192,0.136,0.265
+43,ALB,Afghanistan,1990,36,"2 to 19 yrs, age-standardized",2,19,1,male,pct,obese,prevalence,0.061,0.049,0.076
+74,AND,Afghanistan,1990,36,"2 to 19 yrs, age-standardized",2,19,1,male,pct,overweight,prevalence,0.168,0.14,0.197
+156,ARE,Afghanistan,1990,6,5 to 9 yrs,5,9,1,male,pct,overweight,prevalence,0.152,0.107,0.21
+97,ARG,Afghanistan,1990,6,5 to 9 yrs,5,9,1,male,pct,obese,prevalence,0.063,0.04,0.091
+33,ARM,Afghanistan,1990,7,10 to 14 yrs,10,14,1,male,pct,overweight,prevalence,0.187,0.133,0.254
+105,ATG,Afghanistan,1990,7,10 to 14 yrs,10,14,1,male,pct,obese,prevalence,0.06,0.039,0.089
+71,AUS,Afghanistan,1990,8,15 to 19 yrs,15,19,1,male,pct,overweight,prevalence,0.142,0.098,0.193
