@@ -47,18 +47,19 @@ d3.csv("csv/test.csv", type, function(error, data) {
 
   for(var i=0;i < data.length;i++) {
 
-    if(data[i].location === "AFG") {
+    while(data[i].location === "AFG") {
       console.log(data[i].location);
 
       chart.selectAll(".bar")
         .data(data)
       .enter().append("rect")
         .attr("class", "bar")
-        .attr("x", function(d) { return x(d.location); })
+        .attr("x", function(d) { console.log(d.location); return x(d.location); })
         .attr("y", function(d) { return y(d.mean); })
         .attr("height", function(d) { return height - y(d.mean); })
         .attr("width", x.rangeBand());
 
+        break;
     }
   }
 
